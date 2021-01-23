@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+}
+
+li {
+  display: "inline-block";
+  box-sizing: "border-box";
+  border-radius: 12px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(239, 239, 240);
+  list-style: none;
+}

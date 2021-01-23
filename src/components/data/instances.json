@@ -1,0 +1,51 @@
+[
+  {
+    "code": "gp",
+    "name": "General Purpose",
+    "memory": ["256 MB", "512 MB", "1 GB", "2 GB", "4 GB"],
+    "cpu": ["1", "2", "4"],
+    "network": {
+      "min": 512,
+      "max": 1000
+    }
+  },
+  {
+    "code": "strg",
+    "name": "Storage Optimized",
+    "memory": ["16 GB", "32 GB", "64 GB"],
+    "cpu": ["1", "8", "16"],
+    "network": {
+      "min": 512,
+      "max": 1000
+    }
+  },
+  {
+    "code": "nwrk",
+    "name": "Network Optimized",
+    "memory": [
+      "256 MB",
+      "512 MB",
+      "1 GB",
+      "2 GB",
+      "4 GB",
+      "16 GB",
+      "32 GB",
+      "64 GB"
+    ],
+    "cpu": ["1", "2", "4", "8", "16"],
+    "network": {
+      "min": 512,
+      "max": 2000
+    }
+  },
+  {
+    "code": "cmpt",
+    "name": "Compute Optimized",
+    "memory": ["16 GB", "32 GB", "64 GB"],
+    "cpu": ["1", "2", "8", "16"],
+    "network": {
+      "min": 512,
+      "max": 1000
+    }
+  }
+]
